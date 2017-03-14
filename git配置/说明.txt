@@ -1,0 +1,32 @@
+  
+ssh 连接 通过公钥体制，无密码登陆 
+
+http://blog.csdn.net/jixiuffff/article/details/5968929
+
+
+
+创建SSH密钥，并连接GitHub 
+
+http://www.blogways.net/blog/2013/04/10/generating-ssh-keys-4-github.html
+
+
+
+https://help.github.com/articles/generating-ssh-keys/
+
+
+
+秘钥
+
+67:96:3f:73:7d:c5:81:84:6d:22:04:5c:77:e2:21:4e 1028338041@qq.com
+
+
+
+git@ipub.io:tongxin/tongxin-android.git
+
+
+谷歌的git管理工具
+
+http://ipub.io:3000
+
+D:\tongxin-android\Tongx\res\drawable-xhdpi\ab_back_holo_light.png: libpng warning: bKGD: invalid
+Error:(1, 1) 错误: 非法字符: \65279

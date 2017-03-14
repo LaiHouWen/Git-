@@ -1,0 +1,118 @@
+
+
+链接
+http://blog.csdn.net/tt_zhang/article/details/7585586
+
+
+设置 代码自动提示背景和颜色
+window->Preferences->General->apperance-Coors and fonts
+
+ Basic 组中 content assist background color和 content assist foreground color 
+
+
+
+Eclipse字体大小调整：
+
+Window /  Preferences / General / Appearance / ColorsAnd Fonts ，在右边的对话框里选择Java - Java Editor Text Font，点击出现的编辑（Edit）按钮，可以设置显示在在主窗体中程序的字体大小，设置完之后点击右下角的应用(Apply)，最后点击确定（OK）即可。
+
+
+1.eclipse 背景色设置：
+
+  Window->Preferences->General->Editors->Text Editors->Backgroud colors
+
+  取消System default 设置成：RGB(204,232,207). 
+
+
+
+1.Windows -> Preferences -> General -> Appearance -> Colors and Font
+
+      basic -> Text Font
+
+      这里可以设置字体
+
+2.Windows -> Preferences -> General -> Editors -> Text Editors
+
+      Line number foreground行号前景色设置
+      Current line highlight当前行高亮颜色设置
+      Print margin打印页边距颜色设置
+      Find scope查找作用域颜色设置
+      Selection foreground color选择的内容的前景色设置
+      Selection background color选择的内容的背景色设置
+      Background color背景色设置
+      Foreground color前景色设置
+      Hyperlink超链接颜色设置
+
+3.Windows -> Preferences -> General -> Editors -> Text Editors -> Annotations
+
+       这里设置注释相关的颜色
+
+4.Windows -> Preferences -> Java -> Editor -> Syntax Coloring
+
+       这里是设置的重头戏,大部分的语法颜色都在这设置
+
+       要逐项的细细查看
+
+5.Windows -> Preferences -> Java -> Editors -> Properties Files Editor
+
+      Properties文件颜色设置
+
+6.windows-> preferences->java->Editor->Mark Occurences
+
+      这里是高亮显示相同的变量的设置位置,颜色设置在
+
+       Windows -> Preferences -> General -> Editors -> Text Editors -> Annotations -> Occurrences
+
+7.Windows -> Preferences -> Run/Debug
+
+       Run/Debug相关设置,输出控制台的颜色设置在下面的Console子项
+
+
+链接网址
+http://blog.sina.com.cn/s/blog_70441c8e0101shvm.html
+
+改变字体颜色
+windows->Preferences->Java->Editor->Syntax Coloring
+右边选择Java 然后可以自由选择颜色了
+
+Annotations(注释): 107, 147, 186  浅蓝色
+Deprecated members(不建议使用的成员): 0, 0, 0  
+Fields(字段): 128, 0, 128  紫色
+KeyWord 'return'(关键字'return'): 255, 0, 0   红色
+Keyword excluding 'return'(除了关键字以外的return): 255, 128 ,0  橙色
+Local variable declarations(局部变量声明): 128, 128, 128   灰色
+Method declarations(方法声明): 255, 128, 64    橙色
+Method(方法): 0, 48, 96 暗浅蓝色
+Operators and brackets(运算符与方括号): 255, 128, 0  橙色
+Others(其他): 96 153, 0   深绿色
+Static fields(静态字段): 33, 0, 189  深蓝色
+Static Method invocations(静态方法调用): 77, 166 255  天蓝色 
+Strings(字符串): 132, 26, 238   中天蓝色
+Type variables(类型变量): 128, 0, 25   红罗色
+
+
+
+
+
+
+
+如何优化 Android Studio 启动、编译和运行速度？
+
+https://www.oschina.net/question/2365986_2142890
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

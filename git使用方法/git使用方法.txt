@@ -1,0 +1,138 @@
+
+Git版本控制软件结合GitHub从入门到精通常用命令学习手册
+http://www.ihref.com/read-16369.html
+
+
+15分钟学会使用Git和远程代码库
+http://www.21ops.com/linux/7191.html
+
+
+Git常用命令 ：链接地址：http://blog.csdn.net/kieven2008/article/details/6594333
+
+
+
+从服务器  更新代码 
+
+
+1.检查本地文件与服务器上的文件是否有冲突
+
+2.pull 文件 从服务器文件同步到本地
+
+3.commit 说明修改的地方
+
+4.push  把本地文件同步到服务器
+
+
+（branch）
+
+1. git mergetool   :检查时是否有冲突
+有冲突问你是否  删除有冲突的本地文件
+
+
+2.  git pull   
+
+
+3. git status
+
+
+4. git commit -a -m ""  说明更改的地方
+
+5. git status 
+
+6. git push  
+
+/////////////////////////////////////////////////////
+Git merge 合并分区详解 
+当前分支是master
+ $ git checkout master
+
+把issueFix中的内容Merge进来：
+$ git merge issueFix
+
+
+查看当前的远程库
+$ git remote
+$ git remote -v 如果有多个远程仓库，此命令将全部列出
+
+
+添加远程仓库
+$ git remote add pb git://github.com/paulboone/ticgit.git
+
+查看远程仓库信息
+$ git remote show origin
+
+查看远程分支 
+$ git branch -r
+
+查看本地和远程所有分支
+$ git branch -a
+
+
+查看本地分支
+$ git branch 
+
+创建分支
+$ git branch test  
+
+把分支推到远程分支 
+$ git push origin test  
+
+切换分支到test
+$ git checkout test 
+
+删除本地分支   
+$ git branch -d xxxxx
+$ git br -d test  
+
+删除远程版本
+$ git push origin :br-1.0.0 
+
+推送数据到远程仓库(第一次是要使用$ git push -u origin master)
+
+$ git push origin master
+
+git 删除远程分支 
+
+查看你的Git全局设置信息 
+$ git config -l 
+
+回到某个commit 时间节点SHA
+$ git reset --hard 12s1s5se52d2
+
+
+
+
+
+从远程服务器下载git代码
+
+
+克隆代码
+git clone命令使用 
+http://blog.csdn.net/techbirds_bao/article/details/9179853
+
+git clone git@192.168.0.58:wwt/android.git
+
+克隆到指定目录
+
+git clone git@192.168.0.58:wwt/android.git "/g/wwt_android"
+
+
+
+Git仓库恢复
+http://platinhom.github.io/2015/11/13/git-recover/
+
+查看历史操作命令
+$ git reflog
+
+那个 commit 上创建一个新分支就能把它恢复过来
+在那个 commit (ab1afef) 上创建一个名为 recover-branch 的分支：
+最新的commit SHA恢复了最新的这个recover-brance的分支.
+$ git branch recover-branch SHA
+
+查看log
+$ git log -g
+
+
+
+
+
