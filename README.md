@@ -9,13 +9,12 @@ $ git clone git@github.com:xxxxx/xxxx.git
 2.本地的代码同步远程仓库的代码
 $ git remote add origin git@192.168.1.119:ndshow
 $ git push origin master 将文件给推到服务器上 
-
 $ git remote show origin 显示远程库origin里的资源 
 
 3. 查看本地所有分支 
 $ git branch [-a]
 
-4.查看远程的所有分支 
+4.查看远程的所有分支
 $ git branch -r
 
 5.提交并且加注释 
