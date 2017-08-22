@@ -4,7 +4,7 @@ Git工具及使用
 Git常用的一些命令
 
 1.从远程服务器中克隆一份代码到本地
-$ git clone git@github.com:xxxxx/xxxx.git
+<br$ git clone git@github.com:xxxxx/xxxx.git/>
 
 2.本地的代码同步远程仓库的代码
 $ git remote add origin git@192.168.1.119:ndshow
