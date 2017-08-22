@@ -4,7 +4,7 @@ Git工具及使用
 Git常用的一些命令
 
 1.从远程服务器中克隆一份代码到本地
-<br$ git clone git@github.com:xxxxx/xxxx.git/>
+$ git clone git@github.com:xxxxx/xxxx.git
 
 2.本地的代码同步远程仓库的代码
 $ git remote add origin git@192.168.1.119:ndshow
@@ -46,9 +46,11 @@ $ git branch branch_0.1 master
 $ git branch -m branch_0.1 branch_1.0
 
 14.切换到branch_1.0/master分支
+
 $ git checkout branch_1.0/master 
 
 15.将本地代码推送到远程仓库
+
 $ git push origin master
 
 
