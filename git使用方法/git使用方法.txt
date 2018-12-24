@@ -26,6 +26,11 @@ Git常用命令 ：链接地址：http://blog.csdn.net/kieven2008/article/detail
 git 初始化
 $ git init
 
+$ ls -a
+
+$ git config user.name "name"
+$ git config user.email "email"
+
 （branch）
 
 1. git mergetool   :检查时是否有冲突
