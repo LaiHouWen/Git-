@@ -1,32 +1,35 @@
 
-Git°æ±¾¿ØÖÆÈí¼ş½áºÏGitHub´ÓÈëÃÅµ½¾«Í¨³£ÓÃÃüÁîÑ§Ï°ÊÖ²á
+Gitç‰ˆæœ¬æ§åˆ¶è½¯ä»¶ç»“åˆGitHubä»å…¥é—¨åˆ°ç²¾é€šå¸¸ç”¨å‘½ä»¤å­¦ä¹ æ‰‹å†Œ
 http://www.ihref.com/read-16369.html
 
 
-15·ÖÖÓÑ§»áÊ¹ÓÃGitºÍÔ¶³Ì´úÂë¿â
+15åˆ†é’Ÿå­¦ä¼šä½¿ç”¨Gitå’Œè¿œç¨‹ä»£ç åº“
 http://www.21ops.com/linux/7191.html
 
 
-Git³£ÓÃÃüÁî £ºÁ´½ÓµØÖ·£ºhttp://blog.csdn.net/kieven2008/article/details/6594333
+Gitå¸¸ç”¨å‘½ä»¤ ï¼šé“¾æ¥åœ°å€ï¼šhttp://blog.csdn.net/kieven2008/article/details/6594333
 
 
 
-´Ó·şÎñÆ÷  ¸üĞÂ´úÂë 
+ä»æœåŠ¡å™¨  æ›´æ–°ä»£ç  
 
 
-1.¼ì²é±¾µØÎÄ¼şÓë·şÎñÆ÷ÉÏµÄÎÄ¼şÊÇ·ñÓĞ³åÍ»
+1.æ£€æŸ¥æœ¬åœ°æ–‡ä»¶ä¸æœåŠ¡å™¨ä¸Šçš„æ–‡ä»¶æ˜¯å¦æœ‰å†²çª
 
-2.pull ÎÄ¼ş ´Ó·şÎñÆ÷ÎÄ¼şÍ¬²½µ½±¾µØ
+2.pull æ–‡ä»¶ ä»æœåŠ¡å™¨æ–‡ä»¶åŒæ­¥åˆ°æœ¬åœ°
 
-3.commit ËµÃ÷ĞŞ¸ÄµÄµØ·½
+3.commit è¯´æ˜ä¿®æ”¹çš„åœ°æ–¹
 
-4.push  °Ñ±¾µØÎÄ¼şÍ¬²½µ½·şÎñÆ÷
+4.push  æŠŠæœ¬åœ°æ–‡ä»¶åŒæ­¥åˆ°æœåŠ¡å™¨
 
 
-£¨branch£©
+git åˆå§‹åŒ–
+$ git init
 
-1. git mergetool   :¼ì²éÊ±ÊÇ·ñÓĞ³åÍ»
-ÓĞ³åÍ»ÎÊÄãÊÇ·ñ  É¾³ıÓĞ³åÍ»µÄ±¾µØÎÄ¼ş
+ï¼ˆbranchï¼‰
+
+1. git mergetool   :æ£€æŸ¥æ—¶æ˜¯å¦æœ‰å†²çª
+æœ‰å†²çªé—®ä½ æ˜¯å¦  åˆ é™¤æœ‰å†²çªçš„æœ¬åœ°æ–‡ä»¶
 
 
 2.  git pull   
@@ -35,101 +38,101 @@ Git³£ÓÃÃüÁî £ºÁ´½ÓµØÖ·£ºhttp://blog.csdn.net/kieven2008/article/details/6594333
 3. git status
 
 
-4. git commit -a -m ""  ËµÃ÷¸ü¸ÄµÄµØ·½
+4. git commit -a -m ""  è¯´æ˜æ›´æ”¹çš„åœ°æ–¹
 
 5. git status 
 
 6. git push  
 
 /////////////////////////////////////////////////////
-Git merge ºÏ²¢·ÖÇøÏê½â 
-µ±Ç°·ÖÖ§ÊÇmaster
+Git merge åˆå¹¶åˆ†åŒºè¯¦è§£ 
+å½“å‰åˆ†æ”¯æ˜¯master
  $ git checkout master
 
-°ÑissueFixÖĞµÄÄÚÈİMerge½øÀ´£º
+æŠŠissueFixä¸­çš„å†…å®¹Mergeè¿›æ¥ï¼š
 $ git merge issueFix
 
 
-²é¿´µ±Ç°µÄÔ¶³Ì¿â
+æŸ¥çœ‹å½“å‰çš„è¿œç¨‹åº“
 $ git remote
-$ git remote -v Èç¹ûÓĞ¶à¸öÔ¶³Ì²Ö¿â£¬´ËÃüÁî½«È«²¿ÁĞ³ö
+$ git remote -v å¦‚æœæœ‰å¤šä¸ªè¿œç¨‹ä»“åº“ï¼Œæ­¤å‘½ä»¤å°†å…¨éƒ¨åˆ—å‡º
 
 
-Ìí¼ÓÔ¶³Ì²Ö¿â
+æ·»åŠ è¿œç¨‹ä»“åº“
 $ git remote add pb git://github.com/paulboone/ticgit.git
 
-²é¿´Ô¶³Ì²Ö¿âĞÅÏ¢
+æŸ¥çœ‹è¿œç¨‹ä»“åº“ä¿¡æ¯
 $ git remote show origin
 
-²é¿´Ô¶³Ì·ÖÖ§ 
+æŸ¥çœ‹è¿œç¨‹åˆ†æ”¯ 
 $ git branch -r
 
-²é¿´±¾µØºÍÔ¶³ÌËùÓĞ·ÖÖ§
+æŸ¥çœ‹æœ¬åœ°å’Œè¿œç¨‹æ‰€æœ‰åˆ†æ”¯
 $ git branch -a
 
 
-²é¿´±¾µØ·ÖÖ§
+æŸ¥çœ‹æœ¬åœ°åˆ†æ”¯
 $ git branch 
 
-´´½¨·ÖÖ§
+åˆ›å»ºåˆ†æ”¯
 $ git branch test  
 
-°Ñ·ÖÖ§ÍÆµ½Ô¶³Ì·ÖÖ§ 
+æŠŠåˆ†æ”¯æ¨åˆ°è¿œç¨‹åˆ†æ”¯ 
 $ git push origin test  
 
-ÇĞ»»·ÖÖ§µ½test
+åˆ‡æ¢åˆ†æ”¯åˆ°test
 $ git checkout test 
 
-É¾³ı±¾µØ·ÖÖ§   
+åˆ é™¤æœ¬åœ°åˆ†æ”¯   
 $ git branch -d xxxxx
 $ git br -d test  
 
-É¾³ıÔ¶³Ì°æ±¾
+åˆ é™¤è¿œç¨‹ç‰ˆæœ¬
 $ git push origin :br-1.0.0 
 
-ÍÆËÍÊı¾İµ½Ô¶³Ì²Ö¿â(µÚÒ»´ÎÊÇÒªÊ¹ÓÃ$ git push -u origin master)
+æ¨é€æ•°æ®åˆ°è¿œç¨‹ä»“åº“(ç¬¬ä¸€æ¬¡æ˜¯è¦ä½¿ç”¨$ git push -u origin master)
 
 $ git push origin master
 
-git É¾³ıÔ¶³Ì·ÖÖ§ 
+git åˆ é™¤è¿œç¨‹åˆ†æ”¯ 
 
-²é¿´ÄãµÄGitÈ«¾ÖÉèÖÃĞÅÏ¢ 
+æŸ¥çœ‹ä½ çš„Gitå…¨å±€è®¾ç½®ä¿¡æ¯ 
 $ git config -l 
 
-»Øµ½Ä³¸öcommit Ê±¼ä½ÚµãSHA
+å›åˆ°æŸä¸ªcommit æ—¶é—´èŠ‚ç‚¹SHA
 $ git reset --hard 12s1s5se52d2
 
 
 
 
 
-´ÓÔ¶³Ì·şÎñÆ÷ÏÂÔØgit´úÂë
+ä»è¿œç¨‹æœåŠ¡å™¨ä¸‹è½½gitä»£ç 
 
 
-¿ËÂ¡´úÂë
-git cloneÃüÁîÊ¹ÓÃ 
+å…‹éš†ä»£ç 
+git cloneå‘½ä»¤ä½¿ç”¨ 
 http://blog.csdn.net/techbirds_bao/article/details/9179853
 
 git clone git@192.168.0.58:wwt/android.git
 
-¿ËÂ¡µ½Ö¸¶¨Ä¿Â¼
+å…‹éš†åˆ°æŒ‡å®šç›®å½•
 
 git clone git@192.168.0.58:wwt/android.git "/g/wwt_android"
 
 
 
-Git²Ö¿â»Ö¸´
+Gitä»“åº“æ¢å¤
 http://platinhom.github.io/2015/11/13/git-recover/
 
-²é¿´ÀúÊ·²Ù×÷ÃüÁî
+æŸ¥çœ‹å†å²æ“ä½œå‘½ä»¤
 $ git reflog
 
-ÄÇ¸ö commit ÉÏ´´½¨Ò»¸öĞÂ·ÖÖ§¾ÍÄÜ°ÑËü»Ö¸´¹ıÀ´
-ÔÚÄÇ¸ö commit (ab1afef) ÉÏ´´½¨Ò»¸öÃûÎª recover-branch µÄ·ÖÖ§£º
-×îĞÂµÄcommit SHA»Ö¸´ÁË×îĞÂµÄÕâ¸örecover-branceµÄ·ÖÖ§.
+é‚£ä¸ª commit ä¸Šåˆ›å»ºä¸€ä¸ªæ–°åˆ†æ”¯å°±èƒ½æŠŠå®ƒæ¢å¤è¿‡æ¥
+åœ¨é‚£ä¸ª commit (ab1afef) ä¸Šåˆ›å»ºä¸€ä¸ªåä¸º recover-branch çš„åˆ†æ”¯ï¼š
+æœ€æ–°çš„commit SHAæ¢å¤äº†æœ€æ–°çš„è¿™ä¸ªrecover-branceçš„åˆ†æ”¯.
 $ git branch recover-branch SHA
 
-²é¿´log
+æŸ¥çœ‹log
 $ git log -g
 
 
